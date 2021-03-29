@@ -1,0 +1,25 @@
+.app{
+    main{
+        .container-update-assignments{
+            height: 100rem;
+            width: 50rem;
+            margin: auto;
+            
+            .update-assignments{
+                display: flex;
+                flex-direction: column;
+                input{
+                    font-size: 20px;
+                }
+                label{
+                    font-size: 25px;
+                }
+                .btn-update{
+                    border-radius: 10px;
+                    padding: 0.6rem 0;
+                }
+            }
+        }
+
+    }
+}
